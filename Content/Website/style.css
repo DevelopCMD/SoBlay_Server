@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Rodin Light';
+    src: url('fonts/light.woff2') format('woff2'),
+         url('fonts/light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rodin Regular';
+    src: url('fonts/reg.woff2') format('woff2'),
+         url('fonts/reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Rodin Light', sans-serif; /* Use Font1 for the body */
+	color: #FFFFFF
+}
+
+h1 {
+    font-family: 'Rodin Regular', sans-serif; /* Use Font2 for headings */
+	color: #FFFFFF
+}
+
+/* Apply additional fonts to other elements as needed */
